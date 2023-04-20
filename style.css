@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://i.scdn.co/image/ab6761610000e5ebbc491445502987461225491d');
+}
+.container{
+width: 700px;
+margin: 0 auto;
+height: 100vh;
+display: flex;
+align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form h1{
+    text-align: center;
+}
+
+.form *{
+    margin-top: 10px;
+}
+.form input, .form button{
+    padding: 10px;
+}
+.form button{
+    align-self: center;
+    width: 50%;
+}
+.form button:hover{
+transition: 1s;
+}
+
+
+
+
+

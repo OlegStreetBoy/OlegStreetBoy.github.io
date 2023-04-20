@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+.section{
+    background: linear-gradient(to right, rgb(16, 255, 243), rgb(12, 100, 96));
+}
+
+.container{
+    width: 800px;
+    margin:0 auto;
+}
+.menu{
+    display: flex;
+}
+
+.menu .side{
+    width: 50%;
+}
+
+.menu .naviganion{
+    display: flex;
+    justify-content: end;
+}
+.menu .naviganion a{
+    transition: 1s;
+    text-decoration: none;
+    color:#900C3F;
+    padding: 20px 30px;
+}
+
+.menu .naviganion a:hover{
+    transition: 1s;
+    background-color: rgb(37, 196, 245);
+    color:yellow;
+    text-shadow: 0 0 10px blue;
+}
+.mainPicture img{ 
+    width: 100%;
+    height: 60%;
+}
+.mainPicture2 img{ 
+    width: 45%;
+    height: 50%;
+}
+.form h1{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
+.tekst_sverhu_kartinki {
+    position: absolute;
+    top: 45%;  
+    right: 700px;  
+    text-transform: uppercase;  
+    color: #900C3F;   
+    width: 350px;             
+    padding: 10px;             
+    text-align: center;               
+    font: bold 25px/40px Helvetica, Sans-Serif;  
+}
+.mainPicture3 img{
+    width: 70%;
+    height: 70%;
+}
+.tekst_sverhu_kartinki2{
+    position: absolute;
+    top: 45%;  
+    right: 700px;  
+    text-transform: uppercase;  
+    color: #900C3F;   
+    width: 350px;             
+    padding: 10px;             
+    text-align: center;               
+    font: bold 25px/40px Helvetica, Sans-Serif;
+}
+.logotip .img{
+    width: 100%;
+    height: 100%;
+}
